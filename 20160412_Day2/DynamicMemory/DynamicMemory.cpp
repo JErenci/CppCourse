@@ -27,7 +27,7 @@ int _tmain(int argc, _TCHAR* argv[])
   }
   else
   {
-    for ( int n = 0; n < i; n++ )
+    for ( n = 0; n < i; n++ )
     {
       cout << "number: ";
       cin >> p[n];
