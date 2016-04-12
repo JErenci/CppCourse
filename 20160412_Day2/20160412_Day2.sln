@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes2", "Classes2\Classe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FriendFunctions", "FriendFunctions\FriendFunctions.vcxproj", "{8C65E862-599D-4870-B157-BDAB7A545196}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleInheritance", "SimpleInheritance\SimpleInheritance.vcxproj", "{D6017B6D-DECD-4AD0-B537-B5A79490BA95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{8C65E862-599D-4870-B157-BDAB7A545196}.Debug|Win32.Build.0 = Debug|Win32
 		{8C65E862-599D-4870-B157-BDAB7A545196}.Release|Win32.ActiveCfg = Release|Win32
 		{8C65E862-599D-4870-B157-BDAB7A545196}.Release|Win32.Build.0 = Release|Win32
+		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Debug|Win32.Build.0 = Debug|Win32
+		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Release|Win32.ActiveCfg = Release|Win32
+		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
