@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionPointer", "Function
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallbackFunction", "CallbackFunction\CallbackFunction.vcxproj", "{038F74B3-EF9A-4A3E-81A9-AB86D91BE415}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicMemory", "DynamicMemory\DynamicMemory.vcxproj", "{67572E7B-E3E3-4B6C-AFEF-A69F9136C420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{038F74B3-EF9A-4A3E-81A9-AB86D91BE415}.Debug|Win32.Build.0 = Debug|Win32
 		{038F74B3-EF9A-4A3E-81A9-AB86D91BE415}.Release|Win32.ActiveCfg = Release|Win32
 		{038F74B3-EF9A-4A3E-81A9-AB86D91BE415}.Release|Win32.Build.0 = Release|Win32
+		{67572E7B-E3E3-4B6C-AFEF-A69F9136C420}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67572E7B-E3E3-4B6C-AFEF-A69F9136C420}.Debug|Win32.Build.0 = Debug|Win32
+		{67572E7B-E3E3-4B6C-AFEF-A69F9136C420}.Release|Win32.ActiveCfg = Release|Win32
+		{67572E7B-E3E3-4B6C-AFEF-A69F9136C420}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
