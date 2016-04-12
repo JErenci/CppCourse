@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FriendFunctions", "FriendFu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleInheritance", "SimpleInheritance\SimpleInheritance.vcxproj", "{D6017B6D-DECD-4AD0-B537-B5A79490BA95}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualMembers", "VirtualMembers\VirtualMembers.vcxproj", "{67DDE166-6D6E-44A6-A8B6-202B556DBE3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +77,10 @@ Global
 		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Debug|Win32.Build.0 = Debug|Win32
 		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Release|Win32.ActiveCfg = Release|Win32
 		{D6017B6D-DECD-4AD0-B537-B5A79490BA95}.Release|Win32.Build.0 = Release|Win32
+		{67DDE166-6D6E-44A6-A8B6-202B556DBE3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67DDE166-6D6E-44A6-A8B6-202B556DBE3A}.Debug|Win32.Build.0 = Debug|Win32
+		{67DDE166-6D6E-44A6-A8B6-202B556DBE3A}.Release|Win32.ActiveCfg = Release|Win32
+		{67DDE166-6D6E-44A6-A8B6-202B556DBE3A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
