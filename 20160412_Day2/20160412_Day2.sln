@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructures", "DataStruc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnotherTypes", "AnotherTypes\AnotherTypes.vcxproj", "{0ECAF530-4F34-4B50-B41C-49B839302B2B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes1", "Classes1\Classes1.vcxproj", "{6991D4DD-0A5A-4518-B148-385A1433C2F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{0ECAF530-4F34-4B50-B41C-49B839302B2B}.Debug|Win32.Build.0 = Debug|Win32
 		{0ECAF530-4F34-4B50-B41C-49B839302B2B}.Release|Win32.ActiveCfg = Release|Win32
 		{0ECAF530-4F34-4B50-B41C-49B839302B2B}.Release|Win32.Build.0 = Release|Win32
+		{6991D4DD-0A5A-4518-B148-385A1433C2F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6991D4DD-0A5A-4518-B148-385A1433C2F7}.Debug|Win32.Build.0 = Debug|Win32
+		{6991D4DD-0A5A-4518-B148-385A1433C2F7}.Release|Win32.ActiveCfg = Release|Win32
+		{6991D4DD-0A5A-4518-B148-385A1433C2F7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
