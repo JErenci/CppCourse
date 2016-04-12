@@ -45,7 +45,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
   for ( int i = 0; i < MAX; ++i )
   {
-    cout << pPerson[i] << endl;
+    //cout << pPerson[i] << endl;
   }
 
   // Office structure use
