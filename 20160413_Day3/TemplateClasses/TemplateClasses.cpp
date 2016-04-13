@@ -6,6 +6,20 @@
 using namespace std;
 
 
+// Templates type can have one or more default values
+template <class T> // = char, int N>
+class mypair
+{
+  //T data[N];
+  T a, b;
+public:
+  mypair( T first, T second )
+  {
+    a = first;
+    b = second;
+  };
+  T getmax();
+};
 
 
 template <class T>

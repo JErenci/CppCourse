@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateClasses", "Template
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpecializedTemplate", "SpecializedTemplate\SpecializedTemplate.vcxproj", "{CC8EA7C3-D20C-4E0A-BA6F-3ED531B9F53A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleNamespaces", "SimpleNamespaces\SimpleNamespaces.vcxproj", "{C3317CC8-BEDB-4014-BB8B-6AC0497F632A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{CC8EA7C3-D20C-4E0A-BA6F-3ED531B9F53A}.Debug|Win32.Build.0 = Debug|Win32
 		{CC8EA7C3-D20C-4E0A-BA6F-3ED531B9F53A}.Release|Win32.ActiveCfg = Release|Win32
 		{CC8EA7C3-D20C-4E0A-BA6F-3ED531B9F53A}.Release|Win32.Build.0 = Release|Win32
+		{C3317CC8-BEDB-4014-BB8B-6AC0497F632A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3317CC8-BEDB-4014-BB8B-6AC0497F632A}.Debug|Win32.Build.0 = Debug|Win32
+		{C3317CC8-BEDB-4014-BB8B-6AC0497F632A}.Release|Win32.ActiveCfg = Release|Win32
+		{C3317CC8-BEDB-4014-BB8B-6AC0497F632A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
