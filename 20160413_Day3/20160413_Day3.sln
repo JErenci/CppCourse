@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleNamespaces", "SimpleN
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TypeCasting", "TypeCasting\TypeCasting.vcxproj", "{E884C8B8-DF84-4B61-BF06-42A5AAB0EEF4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleDynamicCast", "SimpleDynamicCast\SimpleDynamicCast.vcxproj", "{D3992564-E89B-4DB3-B5B1-6F9126A6BAC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{E884C8B8-DF84-4B61-BF06-42A5AAB0EEF4}.Debug|Win32.Build.0 = Debug|Win32
 		{E884C8B8-DF84-4B61-BF06-42A5AAB0EEF4}.Release|Win32.ActiveCfg = Release|Win32
 		{E884C8B8-DF84-4B61-BF06-42A5AAB0EEF4}.Release|Win32.Build.0 = Release|Win32
+		{D3992564-E89B-4DB3-B5B1-6F9126A6BAC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3992564-E89B-4DB3-B5B1-6F9126A6BAC1}.Debug|Win32.Build.0 = Debug|Win32
+		{D3992564-E89B-4DB3-B5B1-6F9126A6BAC1}.Release|Win32.ActiveCfg = Release|Win32
+		{D3992564-E89B-4DB3-B5B1-6F9126A6BAC1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
