@@ -46,6 +46,8 @@ int _tmain(int argc, _TCHAR* argv[])
   B b;
   cout << ( (A) b ).get() << endl;
   cout << (&((A) b ))->getVirt() << endl;
+  // Dynamic casting
+  cout << dynamic_cast<A*>( &b )->getVirt() << endl;
 
 
 
