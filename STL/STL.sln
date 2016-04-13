@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleVector", "SimpleVector\SimpleVector.vcxproj", "{1171E298-6C83-44C2-829B-FCCD368A3230}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleMaps", "SimpleMaps\SimpleMaps.vcxproj", "{E38CEAC4-3703-4A6A-A6DF-562B450F97C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleAlgorithm", "SingleAlgorithm\SingleAlgorithm.vcxproj", "{BA6A90EB-9B92-4F69-B7CF-96DB39A64AF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleCopyAlgo", "SimpleCopyAlgo\SimpleCopyAlgo.vcxproj", "{533917DC-3B39-4DA2-94D0-0C8F5FFD15B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionsAsArgumentsForAlgorithms", "FunctionsAsArgumentsForAlgorithms\FunctionsAsArgumentsForAlgorithms.vcxproj", "{53F16903-A298-4B88-A530-424615410D25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransferAndManipulateAlgorithms", "TransferAndManipulateAlgorithms\TransferAndManipulateAlgorithms.vcxproj", "{CE4090A0-7AE3-4F50-B447-4EE1C4D20228}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingLambdaInAlgorithm", "UsingLambdaInAlgorithm\UsingLambdaInAlgorithm.vcxproj", "{40514FD0-E346-4915-85EC-D643FE0FD93F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1171E298-6C83-44C2-829B-FCCD368A3230}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1171E298-6C83-44C2-829B-FCCD368A3230}.Debug|Win32.Build.0 = Debug|Win32
+		{1171E298-6C83-44C2-829B-FCCD368A3230}.Release|Win32.ActiveCfg = Release|Win32
+		{1171E298-6C83-44C2-829B-FCCD368A3230}.Release|Win32.Build.0 = Release|Win32
+		{E38CEAC4-3703-4A6A-A6DF-562B450F97C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E38CEAC4-3703-4A6A-A6DF-562B450F97C2}.Debug|Win32.Build.0 = Debug|Win32
+		{E38CEAC4-3703-4A6A-A6DF-562B450F97C2}.Release|Win32.ActiveCfg = Release|Win32
+		{E38CEAC4-3703-4A6A-A6DF-562B450F97C2}.Release|Win32.Build.0 = Release|Win32
+		{BA6A90EB-9B92-4F69-B7CF-96DB39A64AF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA6A90EB-9B92-4F69-B7CF-96DB39A64AF2}.Debug|Win32.Build.0 = Debug|Win32
+		{BA6A90EB-9B92-4F69-B7CF-96DB39A64AF2}.Release|Win32.ActiveCfg = Release|Win32
+		{BA6A90EB-9B92-4F69-B7CF-96DB39A64AF2}.Release|Win32.Build.0 = Release|Win32
+		{533917DC-3B39-4DA2-94D0-0C8F5FFD15B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{533917DC-3B39-4DA2-94D0-0C8F5FFD15B0}.Debug|Win32.Build.0 = Debug|Win32
+		{533917DC-3B39-4DA2-94D0-0C8F5FFD15B0}.Release|Win32.ActiveCfg = Release|Win32
+		{533917DC-3B39-4DA2-94D0-0C8F5FFD15B0}.Release|Win32.Build.0 = Release|Win32
+		{53F16903-A298-4B88-A530-424615410D25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53F16903-A298-4B88-A530-424615410D25}.Debug|Win32.Build.0 = Debug|Win32
+		{53F16903-A298-4B88-A530-424615410D25}.Release|Win32.ActiveCfg = Release|Win32
+		{53F16903-A298-4B88-A530-424615410D25}.Release|Win32.Build.0 = Release|Win32
+		{CE4090A0-7AE3-4F50-B447-4EE1C4D20228}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE4090A0-7AE3-4F50-B447-4EE1C4D20228}.Debug|Win32.Build.0 = Debug|Win32
+		{CE4090A0-7AE3-4F50-B447-4EE1C4D20228}.Release|Win32.ActiveCfg = Release|Win32
+		{CE4090A0-7AE3-4F50-B447-4EE1C4D20228}.Release|Win32.Build.0 = Release|Win32
+		{40514FD0-E346-4915-85EC-D643FE0FD93F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40514FD0-E346-4915-85EC-D643FE0FD93F}.Debug|Win32.Build.0 = Debug|Win32
+		{40514FD0-E346-4915-85EC-D643FE0FD93F}.Release|Win32.ActiveCfg = Release|Win32
+		{40514FD0-E346-4915-85EC-D643FE0FD93F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
