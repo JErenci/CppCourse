@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleFuture", "SimpleFutur
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.vcxproj", "{5566B7BF-44E6-4EA2-9919-D2ED6EDE6A02}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingOfCOnst", "UsingOfCOnst\UsingOfCOnst.vcxproj", "{8A5222AA-CFCD-4D81-A1BF-C765AC76A95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{5566B7BF-44E6-4EA2-9919-D2ED6EDE6A02}.Debug|Win32.Build.0 = Debug|Win32
 		{5566B7BF-44E6-4EA2-9919-D2ED6EDE6A02}.Release|Win32.ActiveCfg = Release|Win32
 		{5566B7BF-44E6-4EA2-9919-D2ED6EDE6A02}.Release|Win32.Build.0 = Release|Win32
+		{8A5222AA-CFCD-4D81-A1BF-C765AC76A95F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A5222AA-CFCD-4D81-A1BF-C765AC76A95F}.Debug|Win32.Build.0 = Debug|Win32
+		{8A5222AA-CFCD-4D81-A1BF-C765AC76A95F}.Release|Win32.ActiveCfg = Release|Win32
+		{8A5222AA-CFCD-4D81-A1BF-C765AC76A95F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
