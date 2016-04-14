@@ -6,11 +6,16 @@
 #include <thread>
 #include <string>
 #include <iostream>
+#include <condition_variable>
+#include <atomic>
 using namespace std;
 
 
 long sum = 0;
 mutex mutexSum;
+// Thread-safe variable. Requires exception-handling implementation
+atomic<int> atomicSum( 0 );
+
 
 void add()
 {
@@ -26,6 +31,14 @@ void add2()
     // Avoid locking/unlocking necessity, given that the scope (curly braces section) is lost
     lock_guard<mutex> lg( mutexSum );
     sum++;
+  }
+};
+
+void add3()
+{
+  {
+    // Avoid locking/unlocking necessity, given that the scope (curly braces section) is lost
+    atomicSum++;
   }
 };
 
@@ -61,7 +74,7 @@ int func2()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-  cout << "App startet..." << endl;
+  cout << "App started..." << endl;
 
   //future<int> result1( async( func1 ) );
 
