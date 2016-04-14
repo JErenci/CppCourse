@@ -10,12 +10,22 @@ using namespace std;
 
 
 long sum = 0;
+mutex mutexSum;
+
+void add()
+{
+  // The block that happens between lock and unlock happens independently for every thread!
+  mutexSum.lock();
+  sum++;
+  mutexSum.unlock();
+};
+
 
 void sumWorker()
 {
   for ( int i = 0; i < 1000000; i++ )
   {
-    sum++;
+    add();
   }
 }
 
