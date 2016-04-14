@@ -20,12 +20,20 @@ void add()
   mutexSum.unlock();
 };
 
+void add2()
+{
+  {
+    // Avoid locking/unlocking necessity, given that the scope (curly braces section) is lost
+    lock_guard<mutex> lg( mutexSum );
+    sum++;
+  }
+};
 
 void sumWorker()
 {
   for ( int i = 0; i < 1000000; i++ )
   {
-    add();
+    add2();
   }
 }
 
@@ -53,7 +61,7 @@ int func2()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-  //cout << "App startet..." << endl;
+  cout << "App startet..." << endl;
 
   //future<int> result1( async( func1 ) );
 
