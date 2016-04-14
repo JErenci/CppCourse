@@ -5,15 +5,27 @@
 #include <iostream>
 using namespace std;
 
+extern void ex();
+extern int i;
 
 namespace GLOBAS
 {
-  static int i = 0;
+  static int i;
+
+  class CGlobal
+  {
+  public:
+    static int iClassMember;
+    int iInstanceMember;
+  };
+
 }
+
 
 
 int preIncrement( const int * const ptr )
 {
+  // Static the lifetime of a member
   static int i = 0;
   return ++i;
 };
